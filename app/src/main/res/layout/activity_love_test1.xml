@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<love.lxy.hbk.hl.MyView.HeartClickLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/love_test1_heart_click_layout"
+    tools:context="love.lxy.hbk.hl.Activity.LoveTest.LoveTest1Activity"
+    android:background="@drawable/hbk_self">
+
+
+    <!--<love.lxy.hbk.hl.MyView.HeartPathViewView&ndash;&gt;-->
+        <!--android:id="@+id/surface_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="40dp">
+
+        <ImageView
+            android:id="@+id/love_test_left_pigeon_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:src="@drawable/left_pigeon"/>
+
+        <ImageView
+            android:id="@+id/love_test_right_pigeon_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:src="@drawable/right_pigeon" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/question_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="大傻傻，我是二傻傻，我爱你！看着我的眼睛告诉我，你爱我吗？"
+            android:textColor="@color/myColor"
+            android:textSize="30sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:gravity="bottom">
+
+            <Button
+                android:id="@+id/not_love_btn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/heart_broken"
+                android:text="不爱"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/love_btn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/heart"
+                android:text="爱"
+                android:textSize="20sp" />
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:id="@+id/love_test1_last_question_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:visibility="invisible"
+            android:src="@drawable/last_question"/>
+        <ImageView
+            android:id="@+id/love_test1_next_question_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/next_question"/>
+    </LinearLayout>
+
+
+</love.lxy.hbk.hl.MyView.HeartClickLayout>

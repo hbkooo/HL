@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<love.lxy.hbk.hl.MyView.HeartClickLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/love_test3_heart_click_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightPink"
+    tools:context="love.lxy.hbk.hl.Activity.LoveTest.LoveTest3Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/love_test3_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:text="恋爱❤测试"/>
+
+        <TextView
+            android:id="@+id/love_test3_question_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="@color/myYellow"
+            android:text="男朋友马上要出国了，你和他最后一次相聚，"/>
+
+        <LinearLayout
+            android:id="@+id/love_test3_answerA_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/answer_choice_bg"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="A"/>
+            <TextView
+                android:id="@+id/love_test3_answerA_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:text="旧情人送的廉价戒指"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/love_test3_answerB_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/answer_choice_bg"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="B"/>
+            <TextView
+                android:id="@+id/love_test3_answerB_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:text="花大价钱收藏的名人字画"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/love_test3_answerC_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/answer_choice_bg"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="C"/>
+            <TextView
+                android:id="@+id/love_test3_answerC_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:text="好朋友亲手制作的工艺品"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/love_test3_answerD_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/answer_choice_bg"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="D"/>
+            <TextView
+                android:id="@+id/love_test3_answerD_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:text="你和他的合照"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:id="@+id/love_test3_last_question_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/last_question"/>
+        <ImageView
+            android:id="@+id/love_test3_next_question_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/next_question"/>
+    </LinearLayout>
+
+
+
+</love.lxy.hbk.hl.MyView.HeartClickLayout>

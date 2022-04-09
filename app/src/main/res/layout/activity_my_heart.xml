@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<love.lxy.hbk.hl.MyView.HeartLayersLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/heart_layers_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="love.lxy.hbk.hl.Activity.MyHeartActivity">
+
+    <love.lxy.hbk.hl.MyView.HeartClickLayout
+        android:id="@+id/my_heart_click_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </love.lxy.hbk.hl.MyView.HeartClickLayout>
+
+</love.lxy.hbk.hl.MyView.HeartLayersLayout>

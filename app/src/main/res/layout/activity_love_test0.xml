@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightPink"
+    tools:context="love.lxy.hbk.hl.Activity.LoveTest.LoveTest0Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:id="@+id/love_test0_last_question_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/last_question"/>
+        <ImageView
+            android:id="@+id/love_test0_next_question_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/next_question"/>
+    </LinearLayout>
+
+</FrameLayout>

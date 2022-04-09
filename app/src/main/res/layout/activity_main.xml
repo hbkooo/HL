@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<love.lxy.hbk.hl.MyView.HeartClickLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_heart_click_layout"
+    android:background="@drawable/ours"
+    tools:context="love.lxy.hbk.hl.Activity.MainActivity">
+
+    <love.lxy.hbk.hl.MyView.HeartView
+        android:id="@+id/main_heart_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/skyBlue">
+
+        <TextView
+            android:id="@+id/main_toolbar_title_tv"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:text="大傻傻和二傻傻"/>
+        <ImageView
+            android:id="@+id/main_setting_iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/setting"/>
+
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/main_shadow"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp">
+
+            <ImageView
+                android:id="@+id/main_left_pigeon_iv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:src="@drawable/left_pigeon"/>
+
+            <ImageView
+                android:id="@+id/main_right_pigeon_iv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:src="@drawable/right_pigeon" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginHorizontal="30dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/love_time_layout"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:gravity="center"
+                android:layout_margin="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/main_love_time_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/love1"/>
+
+                <TextView
+                    android:id="@+id/main_love_time_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="相恋时间"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="26sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/love_test_layout"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/main_love_test_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/love2"/>
+
+                <TextView
+                    android:id="@+id/main_love_test_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="真情测试"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="26sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/love_process_layout"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/main_process_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/love3"/>
+
+                <TextView
+                    android:id="@+id/main_love_process_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="爱情历程"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="26sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/love_other_layout"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/main_other_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/love4"/>
+
+                <TextView
+                    android:id="@+id/main_love_other_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="心心都给你"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="26sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</love.lxy.hbk.hl.MyView.HeartClickLayout>

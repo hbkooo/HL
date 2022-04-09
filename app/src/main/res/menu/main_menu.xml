@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/main_menu_bg_heart"
+        android:title="开启背景满屏飞心"
+        android:icon="@drawable/fly_heart0"/>
+    <item android:id="@+id/main_menu_bg_music"
+        android:title="关闭背景音乐"
+        android:icon="@drawable/bg_music"/>
+    <item android:id="@+id/main_menu_bg_click_heart"
+        android:title="关闭背景点击飞心"
+        android:icon="@drawable/bg_music"/>
+
+</menu>

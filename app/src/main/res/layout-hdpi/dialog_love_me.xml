@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pigeons_bg">
+    <love.lxy.hbk.hl.MyView.HeartView
+        android:id="@+id/dialog_love_me_heart_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/dialog_love_me_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:textSize="28sp"
+            android:textColor="@color/DeepPink"
+            android:lineSpacingMultiplier="1.3"
+            android:text="        遇见你是我一生最幸福的事，我爱你，我的傻宝宝，forever！"/>
+
+        <Button
+            android:id="@+id/dialog_confirm_btn"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/one_love"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/myWhite"
+            android:text="想你"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>

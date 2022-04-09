@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/DeepOrange" />
+
+    <TextView
+        android:id="@+id/process_item_center_tv"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/circle_tv_bg"
+        android:gravity="center"
+        android:text="❤"
+        android:textColor="@color/myWhite" />
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/right" />
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/left" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="72dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/corner_bg"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_dp"
+                android:layout_marginRight="@dimen/margin_dp"
+                android:layout_marginTop="@dimen/margin_dp">
+
+                <ImageView
+                    android:id="@+id/process_item_left_iv"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/boy1"/>
+                <TextView
+                    android:id="@+id/process_item_description_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="即使有一天你的步履变得蹒跚，青丝变成白发，红润的脸上爬满了皱纹，但我仍要携着你的手，漫步在夕阳的余晖下。
+你，我一生最爱的人；你我一生最想的人；你，我一生守候的人；你，我一生唯一的人"
+                    android:textSize="12sp"
+                    android:textColor="@color/HotPink"/>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/process_item_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_dp"
+                android:layout_marginRight="@dimen/margin_dp"
+                android:layout_marginBottom="@dimen/margin_dp"
+                android:layout_gravity="right"
+                android:textSize="8sp"
+                android:text="2017年11月18日"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/corner_bg">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<love.lxy.hbk.hl.MyView.HeartPathView-->
+        <!--android:id="@+id/love_process_item_heart_path_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/love_process_item_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="2017年11月18日" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/love_process_item_iv1"
+                android:layout_width="100dp"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ours"/>
+
+            <ImageView
+                android:id="@+id/love_process_item_iv2"
+                android:layout_width="100dp"
+                android:layout_height="160dp"
+                android:src="@drawable/ours1"
+                android:layout_marginLeft="20dp"
+                android:scaleType="fitXY"/>
+
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/love_process_item_content_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="test"
+                    android:textColor="@color/myColor"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/love_process_item_confirm_btn"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/one_love"
+            android:text="确认"
+            android:textColor="@color/myWhite"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <!--<love.lxy.hbk.hl.MyView.HeartView-->
+        <!--android:id="@+id/love_process_item_heart_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+</FrameLayout>

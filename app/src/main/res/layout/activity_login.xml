@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<love.lxy.hbk.hl.MyView.HeartClickLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/login_heart_click_layout"
+    tools:context="love.lxy.hbk.hl.Activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:background="@color/Pink">
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/login_bg">
+
+            <TextView
+                android:id="@+id/login_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:textSize="30sp"
+                android:textColor="@color/myColor"
+                android:text="心动的感觉"/>
+
+            <ImageView
+                android:id="@+id/login_love_iv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="40dp"
+                android:src="@drawable/love"
+                tools:ignore="RtlHardcoded" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/edit_bg"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="30dp">
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/account"/>
+                    <ImageView
+                        android:layout_width="1dp"
+                        android:layout_height="38dp"
+                        android:layout_marginLeft="18dp"
+                        android:src="@drawable/login_split" />
+                    <EditText
+                        android:id="@+id/et_tel"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="24dp"
+                        android:background="@null"
+                        android:singleLine="true"
+                        android:maxLength="11"
+                        android:phoneNumber="true"
+                        android:textSize="16sp"
+                        android:textColorHint="#fff"
+                        android:textColor="#fff"
+                        android:hint="大傻傻的手机号"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/et_code"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_bg"
+                        android:paddingLeft="18dp"
+                        android:paddingRight="18dp"
+                        android:singleLine="true"
+                        android:maxLength="10"
+                        android:phoneNumber="true"
+                        android:textSize="16sp"
+                        android:textColorHint="#fff"
+                        android:textColor="#fff"
+                        android:hint="输入爱的密码哦~"/>
+                    <Button
+                        android:id="@+id/btn_code"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:background="@drawable/one_love"
+                        android:textColor="@color/myWhite"
+                        android:text="获取爱的密码"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/remember_pwd_cb"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:button="@null"
+                        android:background="@drawable/checkbox_pwd_bg"
+                        android:checked="false"/>
+                    <TextView
+                        android:id="@+id/remember_pwd_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="记住爱的密码"
+                        android:textColor="@color/myColor"/>
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="40dp"
+                    android:textColor="@drawable/login_btn_textcolor"
+                    android:background="@drawable/login_btn_bg"
+                    android:text="开始爱的旅途吧！"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</love.lxy.hbk.hl.MyView.HeartClickLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <love.lxy.hbk.hl.MyView.HeartView
+        android:id="@+id/welcome_heart_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/image_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/welcome_love_speech_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="100dp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="@color/DeepPink"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/welcome_text_tv"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/myColor"
+        android:textSize="50sp"/>
+
+    <ImageView
+        android:id="@+id/fly_kiss_iv1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/fly_kiss"/>
+    <ImageView
+        android:id="@+id/fly_kiss_iv2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/fly_kiss"/>
+    <ImageView
+        android:id="@+id/fly_kiss_iv3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/fly_kiss"/>
+    <ImageView
+        android:id="@+id/fly_kiss_iv4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/fly_kiss"/>
+    <ImageView
+        android:id="@+id/fly_kiss_iv5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/fly_kiss"/>
+    <ImageView
+        android:id="@+id/fly_kiss_iv6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/fly_kiss"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/boy"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/girl"/>
+
+    <TextView
+        android:id="@+id/welcome_start_app_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="@color/DeepPink"
+        android:text="点我开启大傻傻和二傻傻的专属APP吧！"
+        android:textSize="30sp"/>
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pigeons_bg">
+    <love.lxy.hbk.hl.MyView.HeartView
+        android:id="@+id/dialog_love_process_forever_heart_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="4dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/dialog_love_process_forever_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/DeepPink"
+                    android:layout_marginBottom="10dp"
+                    android:lineSpacingExtra="2dp"/>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+        <!--<TextView-->
+            <!--android:id="@+id/dialog_love_process_forever_tv"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="50dp"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textColor="@color/DeepPink"-->
+            <!--android:lineSpacingExtra="2dp"/>-->
+
+
+        <Button
+            android:id="@+id/dialog_confirm_love_process_forever_btn"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/one_love"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/myWhite"
+            android:text="想你"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>

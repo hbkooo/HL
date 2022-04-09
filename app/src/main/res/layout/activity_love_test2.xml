@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<love.lxy.hbk.hl.MyView.HeartClickLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/love_test2_heart_click_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightPink"
+    tools:context="love.lxy.hbk.hl.Activity.LoveTest.LoveTest2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/love_test2_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:text="幸福❤测试"/>
+
+        <TextView
+            android:id="@+id/love_test2_question_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="@color/myYellow"
+            android:text="四款同价格的泰迪熊..."/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/love_test2_answerA_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/answer_choice_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="A"/>
+                <TextView
+                    android:id="@+id/love_test2_answerA_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18sp"
+                    android:text="友情"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/love_test2_answerB_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="56dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/answer_choice_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="B"/>
+                <TextView
+                    android:id="@+id/love_test2_answerB_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18sp"
+                    android:text="祝福"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/love_test2_answerC_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/answer_choice_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="C"/>
+                <TextView
+                    android:id="@+id/love_test2_answerC_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18sp"
+                    android:text="挚爱"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/love_test2_answerD_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="56dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/answer_choice_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="D"/>
+                <TextView
+                    android:id="@+id/love_test2_answerD_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18sp"
+                    android:text="谢谢"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:id="@+id/love_test2_last_question_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/last_question"/>
+        <ImageView
+            android:id="@+id/love_test2_next_question_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/next_question"/>
+    </LinearLayout>
+
+
+
+</love.lxy.hbk.hl.MyView.HeartClickLayout>
